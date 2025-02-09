@@ -1,0 +1,59 @@
+.contact {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact h3 {
+    font-size: 22px;
+    color: #222;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.contact strong {
+    color: #000;
+}
+
+.contact p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact h3 {
+        font-size: 20px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+}
