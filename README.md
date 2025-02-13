@@ -20,4 +20,7 @@ This is an e-commerce website for a **Dress Shop** built using the **MERN stack*
 - **Frontend**: React.js, React Router for navigation
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB for storing product and category information
-- **Authentication**: JWT (JSON Web Tokens) 
+- **Authentication**: JWT (JSON Web Tokens)
+
+### Deployment url
+  https://vastra-dhivya-kanagarajs-projects.vercel.app/
