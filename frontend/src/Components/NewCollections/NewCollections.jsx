@@ -5,9 +5,10 @@ import Item from '../Item/Item'
 export const NewCollections = () => {
 
   const [new_collection,setNew_collection] = useState([]);
+  const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
   useEffect(()=>{
-    fetch(`{import.meta.env.VITE_BACKEND_URL}/newcollections`)
+    fetch(`${backendUrl}/newcollections`)
     .then((response)=>response.json())
     .then((data)=>setNew_collection(data));
   },[])
